@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head lang="fr">
+        <meta charset="UTF-8">
+        <title> Architecture Projet </title>
+        <meta name="author" content="Frederic" >
+        <meta name="description" content="construction de stand" >
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+        <link rel="stylesheet" href="style/main.css">
+
+        <style>
+            .anyClass {
+                height:700px;
+                overflow-y: scroll;
+            }
+
+            .draggable1{
+                cursor: move;
+            }
+
+            .draggable2{
+                cursor: move;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="#accueil">Accueil</a></li>
+                        <li><a href="#news">Nouveau Plan</a></li>
+                        <li><a href="#contact">Nous Contacter</a></li>
+                        <li style="float:right"><a href="#about" id="button-popup">Pas encore de compte? Creer Compte</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <div id="contenu_jeux" class="row">
+
+                <aside class="col-3 anyClass">
+
+                    <svg width="100%" height="100%"  style="border: solid black" id="svg" xmlns="http://www.w3.org/2000/svg">
+                        <use x="0" y="0" xlink:href="images/elements.svg#bird" class="draggable1" />
+                        <use x="0" y="150" xlink:href="images/elements.svg#cercle" class="draggable1" />
+                    </svg>
+
+                </aside>
+
+                <main class="col-9">
+                    <svg x="0" y="0" width="100%" height="700" style="background-color: #fff" id="drop_area">
+                        Pas de support de canvas
+
+                        <!--<use x="0" y="0" xlink:href="images/elements.svg#bird" draggable="true" id="use1" class="draggable2"/>-->
+                    </svg>
+
+                </main>
+
+            </div>
+
+
+            <footer>
+
+                <div id="social">
+                    <a href=""><img src="images/social/facebook.png" alt="logo facebook" target="_blank"></a>
+                    <a href=""><img src="images/social/google_plus.png" alt="logo de google" target="_blank"></a>
+                    <a href=""><img src="images/social/linkedin.png" alt="logo linkin" target="_blank"></a>
+                    <a href=""><img src="images/social/twitter.png" alt="logo twitter" target="_blank"></a>
+
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script/select_and_drag.js"></script>
+        <!--<script src="script/drag2.js"></script>-->
+    </body>
+</html>
