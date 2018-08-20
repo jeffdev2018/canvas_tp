@@ -35,6 +35,8 @@ function init() {
 
         });
 
+        e.addEventListener("dblclick", addElement);
+
     }
 
     drop_area.addEventListener("drop", dropElement);
@@ -83,6 +85,37 @@ function dropElement(evt){
         console.log(event.x, event.y);
         console.log("X : " + window.event.clientX, "Y : " + window.event.clientY);
 
+        drop_area2.append(copy);
+
+        console.log(copy.id);
+
+        Draggable.create("#" + copy.id, {
+            type: "x,y",
+            bounds: "#drop_area",
+            overshootTolerance: 0,
+            throwProps: true
+        });
+
+        update();
+        selectedItem = null;
+    }
+}
+
+function addElement(evt){
+    console.log("Je suis in dblclick");
+    console.log(evt.target);
+
+    selectedItem = evt.target;
+
+    if (selectedItem != undefined) {
+
+        let tmp = new Snap(selectedItem);
+        let drop_area2 = Snap("#drop_area");
+
+        let copy = tmp.clone();
+        copy.removeClass("draggable1");
+        copy.addClass("draggable2");
+        copy.attr({ x: 0, y: 0})
         drop_area2.append(copy);
 
         console.log(copy.id);
