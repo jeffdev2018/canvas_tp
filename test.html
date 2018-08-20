@@ -1,0 +1,86 @@
+!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>untitled document</title>
+    <link rel="stylesheet" href="page.css" media="screen">
+    <style media="screen">
+        html,body {
+            background-image:linear-gradient(to bottom,#fed,#432);
+            background-attachment:fixed;
+        }
+        #svgcontainer{
+            position:fixed;
+            top:0;
+            width:50%;
+            height:100vh;
+        }
+        #svgcontainer svg {
+            display:block;
+            width:100%;
+            height:100%;
+        }
+        #svgcontainer h1 {
+            position:absolute;
+            left:50%;
+            top:40%;
+            text-transform:uppercase;
+            color:#ddd;
+            text-shadow:0 0 1px #300,0 0 2px #300,0 0 3px #300;
+            white-space:nowrap;
+        }
+        #content{
+            padding:4%;
+            margin-left:52%;
+            box-sizing:border-box;
+        }
+        @media screen and (max-width:440px) {
+            #svgcontainer h1{
+                white-space:normal;
+            }
+        }
+        @media screen and (max-width:330px) {
+            #svgcontainer h1{
+                font-size:150%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="svgcontainer">
+    <h1>Amy Winehouse</h1>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 40 100">
+        <defs>
+            <filter id="dropShadow">
+                <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+                <feOffset dx="1" dy="3"/>
+                <feMerge>
+                    <feMergeNode/>
+                    <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+            </filter>
+            <pattern id="image" x="0" y="0" height="100%" width="100%" viewBox="0 0 432 1080">
+                <image x="0" y="0" width="432" height="1080" xlink:href="http://coothead.co.uk/images/amy.jpg"></image>
+            </pattern>
+        </defs>
+        <a xlink:href="http://www.theguardian.com/music/amywinehouse">
+            <polygon points="0,0 40,0 40,100 20,100" fill="url(#image)" filter="url(#dropShadow)" stroke="#321" stroke-width="0.1"/>
+        </a>
+    </svg>
+</div>
+<div id="content">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet sem sed libero
+        bibendum tempus faucibus quis mi. Nulla rhoncus vel ipsum in volutpat. Nam tortor nibh,
+        posuere ac lorem ut, suscipit tincidunt leo. Duis interdum justo ac justo vehicula consequat.
+        Curabitur et volutpat nibh. Phasellus rutrum lacus at dolor placerat feugiat. Morbi porta,
+        sapien nec molestie molestie, odio magna vestibulum lorem, vitae feugiat est leo sit amet
+        nunc. Curabitur ornare tempor turpis. In nibh sem, porta ac magna sed, pretium commodo
+        odio. Sed porttitor augue velit, quis placerat diam sodales ac. Curabitur vitae porta ex.
+        Praesent rutrum ex fringilla tellus tincidunt interdum. Proin molestie lectus consectetur
+        purus aliquam porttitor. Fusce ac nisi ac magna scelerisque finibus a vitae sem.
+    </p>
+</div>
+</body>
+</html>
