@@ -14,7 +14,7 @@ function get() {
     let data= document.getElementById("editor").innerHTML = localStorage.getItem(cle);
 
     init();
-
+    initBG();
 }
 
 function init() {

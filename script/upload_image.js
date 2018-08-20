@@ -2,7 +2,9 @@
 "use strict";
 console.log("Js upload file Started");
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", initBG());
+
+function initBG() {
     let svgs = document.getElementsByTagName("svg");
     console.log(svgs);
     console.assert(svgs, "You have no element with Name 'svg'");
@@ -79,4 +81,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-});
+}
