@@ -40,6 +40,14 @@
                 </nav>
 
             </header>
+            <div>
+                <input type="button" value="Save un plan" onclick="set()"/>
+                <input type="button" value="Afficher un plan" onclick="get()"/>
+
+                <br>
+                Clé :
+                <input id="key">
+            </div>
 
             <div id="contenu_jeux" class="row">
 
@@ -59,9 +67,9 @@
 
                 </aside>
 
-                <main class="col-9">
+                <main class="col-9" id="editor">
 
-                    <svg x="0" y="0" width="100%" height="700"  id="drop_area">
+                    <svg x="0" y="0" width="100%" height="700"  id="drop_area" >
                         <defs>
                             <filter id="dropShadow">
                                 <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
@@ -98,7 +106,18 @@
                 </div>
             </footer>
         </div>
+        <script>
+            function set() {
+                data = document.getElementById("editor").innerHTML;
 
+                key = document.getElementById("key").value;
+
+
+                localStorage.setItem(key, data);
+                document.getElementById("editor").innerHTML= "";
+            }
+
+        </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/utils/Draggable.min.js"></script>
         <!--<script src="//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ThrowPropsPlugin.min.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
