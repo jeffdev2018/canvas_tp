@@ -1,0 +1,21 @@
+
+.anyClass {
+    height:700px;
+    overflow-y: scroll;
+}
+
+.draggable1{
+    cursor: move;
+}
+
+.draggable2{
+    cursor: move;
+
+}
+
+svg#drop_area {
+    /*background-image:url('w3css.gif');*/ /*Sera fait par Javascript*/
+    background-repeat:no-repeat;
+    /*background-size:cover;*/
+    background-size:100% 100%;
+}

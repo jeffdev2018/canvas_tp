@@ -7,22 +7,7 @@
         <meta name="description" content="construction de stand" >
         <meta name="viewport" content="width=device-width,initial-scale=1.0" >
         <link rel="stylesheet" href="style/main.css">
-
-        <style>
-            .anyClass {
-                height:700px;
-                overflow-y: scroll;
-            }
-
-            .draggable1{
-                cursor: move;
-            }
-
-            .draggable2{
-                cursor: move;
-
-            }
-        </style>
+        <link rel="stylesheet" href="css/stand.css">
 
     </head>
 
@@ -43,7 +28,7 @@
             <div>
                 <input type="button" value="Save un plan" onclick="set()"/>
                 <input type="button" value="Afficher un plan" onclick="get()"/>
-
+                <input type="button" value="Effacer BackGround image" id="effacerBG"></input>
                 <br>
                 Clé :
                 <input id="key">
