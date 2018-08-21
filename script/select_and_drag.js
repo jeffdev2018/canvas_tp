@@ -96,6 +96,7 @@ function init() {
             throwProps: true
         });
 
+        i.addEventListener("dblclick", deleteItem);
     }
 
 }
@@ -128,6 +129,8 @@ function dropElement(evt){
 
         console.log(copy.id);
 
+        copy.dblclick( deleteItem);
+
         $(document).keypress(function(e) {
 
             console.log(e.which);
@@ -164,7 +167,6 @@ function dropElement(evt){
             throwProps: true
         });
 
-        update();
         selectedItem = null;
     }
 }
@@ -188,6 +190,8 @@ function addElement(evt){
 
         console.log(copy.id);
 
+        copy.dblclick( deleteItem);
+
         $(document).keypress(function(e) {
 
             console.log(e.which);
@@ -224,8 +228,20 @@ function addElement(evt){
             throwProps: true
         });
 
-        update();
         selectedItem = null;
     }
+}
+
+function deleteItem(evt){
+
+    selectedItem = evt.target;
+
+    if(confirm("Voulez-vous supprimer l'item?!")){
+
+        selectedItem.remove();
+
+    }
+
+    selectedItem = null;
 }
 
