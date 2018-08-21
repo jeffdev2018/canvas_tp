@@ -64,6 +64,7 @@ function init() {
 
             console.log(e.which);
             if(e.which == 114) {
+                TweenLite.set("#"+ i.id, {transformOrigin:"50% 50%"})
                 Draggable.create("#" + i.id, {
                     type:"rotation",
                     throwProps:true
@@ -135,6 +136,7 @@ function dropElement(evt){
 
             console.log(e.which);
             if(e.which == 114) {
+                TweenLite.set("#" + copy.id, {transformOrigin:"50% 50%"})
                 Draggable.create("#" + copy.id, {
                     type:"rotation",
                     throwProps:true
@@ -196,6 +198,7 @@ function addElement(evt){
 
             console.log(e.which);
             if(e.which == 114) {
+                TweenLite.set("#" + copy.id, {transformOrigin:"50% 50%"})
                 Draggable.create("#" + copy.id, {
                     type:"rotation",
                     throwProps:true
