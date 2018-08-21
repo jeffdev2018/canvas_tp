@@ -81,16 +81,16 @@ function initBG() {
         }
     }
 
-    let btn = document.getElementById("colorBtn");
+    let color = document.getElementById("colorChange");
 
-    btn.addEventListener("click", function(evt) {
+    color.addEventListener("change", function(evt) {
 
         console.log("Je change la couleur");
 
-        let color = document.getElementById("colorChange");
         let main = document.getElementById("drop_area");
 
         main.style.backgroundColor = color.value;
+        main.style.border = "5px solid black";
     });
 
 
