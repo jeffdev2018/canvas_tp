@@ -8,6 +8,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+function set() {
+
+    let data = document.getElementById("editor").innerHTML;
+
+    let key = document.getElementById("key").value;
+
+
+    localStorage.setItem(key, data);
+    document.getElementById("editor").innerHTML= "";
+}
 
 function get() {
     let cle = document.getElementById("key").value;
@@ -50,6 +60,35 @@ function init() {
 
     let use = $("#drop_area").find("use");
     for(let i of use){
+        $(document).keypress(function(e) {
+
+            console.log(e.which);
+            if(e.which == 114) {
+                Draggable.create("#" + i.id, {
+                    type:"rotation",
+                    throwProps:true
+                });
+            }else if(e.which == 109){
+                Draggable.create("#" + i.id, {
+                    type: "x,y",
+                    bounds: "#drop_area",
+                    overshootTolerance: 0,
+                    throwProps: true
+                });
+            }
+        });
+
+        $("#" + i.id).keypress(function(ev){
+
+            console.log("key press");
+
+            if(ev.altKey){
+                console.log("je suis cliquer",ev.id);
+
+            }
+
+        });
+
         Draggable.create("#" + i.id, {
             type: "x,y",
             bounds: "#drop_area",
@@ -89,6 +128,35 @@ function dropElement(evt){
 
         console.log(copy.id);
 
+        $(document).keypress(function(e) {
+
+            console.log(e.which);
+            if(e.which == 114) {
+                Draggable.create("#" + copy.id, {
+                    type:"rotation",
+                    throwProps:true
+                });
+            }else if(e.which == 109){
+                Draggable.create("#" + copy.id, {
+                    type: "x,y",
+                    bounds: "#drop_area",
+                    overshootTolerance: 0,
+                    throwProps: true
+                });
+            }
+        });
+
+        $("#" + copy.id).keypress(function(ev){
+
+            console.log("key press");
+
+            if(ev.altKey){
+                console.log("je suis cliquer",ev.id);
+
+            }
+
+        });
+
         Draggable.create("#" + copy.id, {
             type: "x,y",
             bounds: "#drop_area",
@@ -120,6 +188,35 @@ function addElement(evt){
 
         console.log(copy.id);
 
+        $(document).keypress(function(e) {
+
+            console.log(e.which);
+            if(e.which == 114) {
+                Draggable.create("#" + copy.id, {
+                    type:"rotation",
+                    throwProps:true
+                });
+            }else if(e.which == 109){
+                Draggable.create("#" + copy.id, {
+                    type: "x,y",
+                    bounds: "#drop_area",
+                    overshootTolerance: 0,
+                    throwProps: true
+                });
+            }
+        });
+
+        $("#" + copy.id).keypress(function(ev){
+
+            console.log("key press");
+
+            if(ev.altKey){
+                console.log("je suis cliquer",ev.id);
+
+            }
+
+        });
+
         Draggable.create("#" + copy.id, {
             type: "x,y",
             bounds: "#drop_area",
@@ -131,3 +228,4 @@ function addElement(evt){
         selectedItem = null;
     }
 }
+

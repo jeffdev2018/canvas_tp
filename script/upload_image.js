@@ -81,4 +81,20 @@ function initBG() {
         }
     }
 
+    let btn = document.getElementById("colorBtn");
+
+    btn.addEventListener("click", function(evt) {
+
+        console.log("Je change la couleur");
+
+        let color = document.getElementById("colorChange");
+        let main = document.getElementById("drop_area");
+
+        main.style.backgroundColor = color.value;
+    });
+
+
+
+
+
 }
