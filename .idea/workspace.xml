@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9921c5af-1fc5-4284-bba0-a5262bfd9148" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stand.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stand.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/select_and_drag.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/select_and_drag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/upload_image.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/upload_image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stand.html" beforeDir="false" afterPath="$PROJECT_DIR$/stand.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,7 +64,7 @@
       <file leaf-file-name="stand.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
+            <state relative-caret-position="408">
               <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
               <folding>
                 <element signature="e#1096#1103#1" expanded="true" />
@@ -94,11 +90,11 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="select_and_drag.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="select_and_drag.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
+            <state relative-caret-position="68">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -112,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stand.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="stand.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/stand.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="-1530">
               <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
@@ -181,9 +177,9 @@
         <option value="$PROJECT_DIR$/images/comptoiravecchaise.svg" />
         <option value="$PROJECT_DIR$/script/svgAutre.js" />
         <option value="$PROJECT_DIR$/script/upload_image.js" />
-        <option value="$PROJECT_DIR$/script/select_and_drag.js" />
         <option value="$PROJECT_DIR$/stand.html" />
         <option value="$PROJECT_DIR$/css/stand.css" />
+        <option value="$PROJECT_DIR$/script/select_and_drag.js" />
       </list>
     </option>
   </component>
@@ -286,12 +282,12 @@
       <workItem from="1534877470165" duration="13000" />
       <workItem from="1534894033632" duration="76000" />
       <workItem from="1534943289174" duration="603000" />
-      <workItem from="1534950224897" duration="26285000" />
+      <workItem from="1534950224897" duration="27191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71696000" />
+    <option name="totallyTimeSpent" value="72602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -555,16 +551,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
+    <entry file="file://$PROJECT_DIR$/css/stand.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
+        <state relative-caret-position="-1530">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="408">
           <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
           <folding>
             <element signature="e#1096#1103#1" expanded="true" />
@@ -574,10 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/stand.css">
+    <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@
 
 let selectedItem;
 let firstData;
-let planKey;
+let planKey = "Default";
 
 document.addEventListener("DOMContentLoaded", function() {
     init();
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function set() {
     let data = document.getElementById("editor").innerHTML;
 
-    if(planKey === undefined) {
+    if(planKey === undefined || planKey === null) {
         planKey = prompt("Enter le nom du plan", " ");
     }
 
@@ -37,9 +37,13 @@ function set() {
 // cree un nouveau plan
 function newSvg(){
     document.getElementById("editor").innerHTML = firstData;
+    planKey = null;
+    set();
+    document.getElementById("editor").innerHTML = localStorage.getItem(planKey);
+    document.getElementById("titre_plan").textContent = planKey;
     init();
     initBG();
-    planKey = null;
+
 }
 
 // donne l'option d'effacer les plans
@@ -111,7 +115,6 @@ function init() {
 
     console.log("I am loaded");
 
-    planKey = "Default";
     document.getElementById("titre_plan").textContent = planKey;
 
     window.addEventListener("unload", set);
