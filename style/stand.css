@@ -129,8 +129,8 @@ body {
     margin-top: 10px;
 }
 #fuckPlan {
-    width: 220px;
-    margin-left: 32px;
+    /*width: 220px;*/
+    /*margin-left: 32px;*/
     margin-top: 50px;
     background-color: #dddddd;
     min-height: 300px;
@@ -164,7 +164,7 @@ body {
     text-decoration: none;
     color: #000;
     display: block;
-    width: 200px;
+    width: 225px;
 
     -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
     -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
