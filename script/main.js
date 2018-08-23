@@ -1,4 +1,4 @@
-"use strict";
+"use strict"
 
 let selectedItem;
 let firstData;
@@ -10,113 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
-
-// sauvegarde le plan
-function set() {
-    let data = document.getElementById("editor").innerHTML;
-
-    if(planKey === undefined || planKey === null) {
-        planKey = prompt("Enter le nom du plan", " ");
-    }
-
-    if (planKey != null) {
-        localStorage.setItem(planKey, data);
-        //document.getElementById("editor").innerHTML = firstData;
-        closeNav();
-        //recupere le ul vide
-        let list = document.getElementById("listePlan");
-
-        // Loop through localStorage
-        let p = document.getElementById("erreur");
-        p.textContent = "";
-        display(list);
-    }else{
-        planKey = "Default";
-        document.getElementById("editor").innerHTML = localStorage.getItem(planKey);
-        document.getElementById("titre_plan").textContent = planKey;
-        init();
-        initBG();
-    }
-
-}
-
-// cree un nouveau plan
-function newSvg(){
-    document.getElementById("editor").innerHTML = firstData;
-    planKey = null;
-    set();
-    document.getElementById("editor").innerHTML = localStorage.getItem(planKey);
-    document.getElementById("titre_plan").textContent = planKey;
-    init();
-    initBG();
-
-}
-
-// donne l'option d'effacer les plans
-function del() {
-    let del= document.getElementsByClassName("deleteMe");
-    if(localStorage.length > 0){
-
-        for(let i = 0 ; i < del.length; i++){
-            del[i].style.display = "block";
-            del[i].addEventListener("click", function(){
-                console.log("good morning!!!");
-                $(this).closest("li").remove();
-                let cle =$(this).closest("a").text().slice(0,-1);
-                console.log("cle ="+ cle);
-                localStorage.removeItem(cle);
-            });
-
-        }
-
-    }
-//Loop through
-}
-
-
-// afffiche les plans dans une liste
-function display(list) {
-    list.innerHTML="";
-
-    for (let i = 0; i < localStorage.length; i++){
-
-        let item = document.createElement("li");
-        item.className = "liDraw";
-        let itemDiv = document.createElement("button");
-        //itemDiv.setAttribute("class", "deleteMe");
-        itemDiv.className = "deleteMe";
-        itemDiv.style.display = "none";
-        itemDiv.innerText= "X";
-        let a = document.createElement("a");
-        //item.textContent = localStorage.getItem(localStorage.key(i).);
-        a.setAttribute("href", "#");
-        a.textContent = localStorage.key(i);
-        item.appendChild(a);
-        a.appendChild(itemDiv);
-        list.appendChild(item);
-        item.addEventListener("click", function(){
-            console.log("good morning  I am li!!!");
-            let cle =$(this).children().text().slice(0,-1);
-            console.log("cle ="+ cle);
-            document.getElementById("editor").innerHTML = localStorage.getItem(cle);
-            init();
-            initBG();
-            planKey = cle;
-            document.getElementById("titre_plan").textContent = planKey;
-        });
-
-    }
-}
-
-// function get() {
-//     let cle = document.getElementById("key").value;
-//     let data= document.getElementById("editor").innerHTML = localStorage.getItem(cle);
-//
-//     init();
-//     initBG();
-// }
-
-// branche les listeners aux images et au svg d'edition
+// on initialise tous les elements de la page avec leurs listeners
 function init() {
 
     console.log("I am loaded");
@@ -188,7 +82,7 @@ function init() {
 
 }
 
-// appel la methode pour  creer l'element svg suite au drag and drop
+// methode pour  creer l'element svg suite au drag and drop
 function dropElement(evt){
 
     if (selectedItem != undefined) {
@@ -199,7 +93,7 @@ function dropElement(evt){
     }
 }
 
-// appel la methode pour  creer l'element svg suite au double click sur l'objet choisi
+// methode pour creer l'element svg suite au double click sur l'objet choisi
 function addElement(evt){
 
     let name = evt.target.name;

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9921c5af-1fc5-4284-bba0-a5262bfd9148" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/script/select_and_drag.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/select_and_drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/sauvegarde.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/select_and_drag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/svgAutre.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/upload_image.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/background.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stand.html" beforeDir="false" afterPath="$PROJECT_DIR$/stand.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -65,8 +70,8 @@
       <file leaf-file-name="stand.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+            <state relative-caret-position="467">
+              <caret line="126" column="52" selection-start-line="126" selection-start-column="52" selection-end-line="126" selection-end-column="52" />
               <folding>
                 <element signature="e#1096#1103#1" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -76,60 +81,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comptoiravecchaise.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/comptoiravecchaise.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="bureauh.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/bureauh.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="bureau.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/bureau.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="select_and_drag.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+            <state relative-caret-position="2839">
+              <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svgAutre.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/svgAutre.js">
+      <file leaf-file-name="sauvegarde.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/sauvegarde.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="1105">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stand.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stand.css">
+      <file leaf-file-name="nav.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script/nav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1530">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scale_and_rotate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/scale_and_rotate.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-94" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload_image.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/upload_image.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="994">
-              <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+            <state relative-caret-position="136">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -139,9 +113,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -163,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/script/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style/main.css" />
         <option value="$PROJECT_DIR$/test.html" />
@@ -179,8 +152,11 @@
         <option value="$PROJECT_DIR$/script/svgAutre.js" />
         <option value="$PROJECT_DIR$/script/upload_image.js" />
         <option value="$PROJECT_DIR$/css/stand.css" />
-        <option value="$PROJECT_DIR$/stand.html" />
+        <option value="$PROJECT_DIR$/script/sauvegarde.js" />
         <option value="$PROJECT_DIR$/script/select_and_drag.js" />
+        <option value="$PROJECT_DIR$/script/main.js" />
+        <option value="$PROJECT_DIR$/stand.html" />
+        <option value="$PROJECT_DIR$/script/nav.js" />
       </list>
     </option>
   </component>
@@ -198,6 +174,9 @@
     <option name="y" value="40" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -283,12 +262,12 @@
       <workItem from="1534877470165" duration="13000" />
       <workItem from="1534894033632" duration="76000" />
       <workItem from="1534943289174" duration="603000" />
-      <workItem from="1534950224897" duration="27538000" />
+      <workItem from="1534950224897" duration="28394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72949000" />
+    <option name="totallyTimeSpent" value="73805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -326,13 +305,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="amelioration du background" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="86" lean-forward="true" selection-start-line="77" selection-start-column="71" selection-end-line="77" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3417">
@@ -343,7 +315,7 @@
     <entry file="file://$PROJECT_DIR$/script/scale_and_rotate.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/upload_image.js">
+    <entry file="file://$PROJECT_DIR$/script/background.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
@@ -480,9 +452,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/main.js" />
     <entry file="file://$PROJECT_DIR$/script/prepare.js" />
-    <entry file="file://$PROJECT_DIR$/script/upload_image.js">
+    <entry file="file://$PROJECT_DIR$/script/background.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
@@ -530,27 +501,15 @@
     <entry file="file://$PROJECT_DIR$/images/bureauh.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/scale_and_rotate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/upload_image.js">
+    <entry file="file://$PROJECT_DIR$/script/background.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="994">
-          <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/comptoiravecchaise.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/svgAutre.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stand.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -559,10 +518,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+        <state relative-caret-position="467">
+          <caret line="126" column="52" selection-start-line="126" selection-start-column="52" selection-end-line="126" selection-end-column="52" />
           <folding>
             <element signature="e#1096#1103#1" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -571,10 +537,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
+    <entry file="file://$PROJECT_DIR$/script/scale_and_rotate.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+        <state relative-caret-position="2839">
+          <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/sauvegarde.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
