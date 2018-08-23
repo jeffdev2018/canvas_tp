@@ -4,54 +4,8 @@
     <list default="true" id="9921c5af-1fc5-4284-bba0-a5262bfd9148" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stand.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stand.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Jeu-Du-Pendu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/KK03pp9C-46326.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bonhomme-pendu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/classique.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/elements.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/elements.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fond.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/ALCOOMETRE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/BARBOTINES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/CANNETIERE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/CARTOUCHES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/COMPACTAGE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/DEBARDEURS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/DEODORANTS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/ENSEIGNENT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/FRAMBOISES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/INSPECTEUR.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/INTERVIEWS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/INVALIDITE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/IONOSPHERE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/JARDINERIE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/JUDICIAIRE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/KILOGRAMME.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/LIEUTENANT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/LOCOMOTIVE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/MOZZARELLA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/MUSICIENNE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/NIVELEUSES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/NUMERIQUES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/OBSCURITES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/PEPINIERES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/PSYCHIATRE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/RESIDENCES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/SPECTATEUR.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/TURBULENCE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/URGENTISTE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/VEILLEUSES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img_mots/VELODROMES.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/jeu_pendu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/maxresdefault.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pendu20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pendu_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pendu_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slide1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slide2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/unnamed.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script/select_and_drag.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/select_and_drag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/upload_image.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/upload_image.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stand.html" beforeDir="false" afterPath="$PROJECT_DIR$/stand.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -114,9 +68,11 @@
       <file leaf-file-name="stand.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stand.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="496">
+              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
               <folding>
+                <element signature="e#1096#1103#1" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#aside#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -138,20 +94,29 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="select_and_drag.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="select_and_drag.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+            <state relative-caret-position="476">
+              <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stand.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="svgAutre.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/svgAutre.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stand.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/stand.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -166,8 +131,8 @@
       <file leaf-file-name="upload_image.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/upload_image.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="994">
+              <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -191,6 +156,7 @@
       <find>g</find>
       <find>def</find>
       <find>id</find>
+      <find>a</find>
       <find>drop_area</find>
     </findStrings>
   </component>
@@ -205,7 +171,6 @@
         <option value="$PROJECT_DIR$/style/main.css" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/script/upload_image2.js" />
-        <option value="$PROJECT_DIR$/script/upload_image.js" />
         <option value="$PROJECT_DIR$/images/bureauunique.svg" />
         <option value="$PROJECT_DIR$/images/newbureau.svg" />
         <option value="$PROJECT_DIR$/images/nene.svg" />
@@ -213,10 +178,12 @@
         <option value="$PROJECT_DIR$/images/elements.svg" />
         <option value="$PROJECT_DIR$/images/bureauh.svg" />
         <option value="$PROJECT_DIR$/images/bureau.svg" />
-        <option value="$PROJECT_DIR$/css/stand.css" />
         <option value="$PROJECT_DIR$/images/comptoiravecchaise.svg" />
-        <option value="$PROJECT_DIR$/stand.html" />
+        <option value="$PROJECT_DIR$/script/svgAutre.js" />
+        <option value="$PROJECT_DIR$/script/upload_image.js" />
         <option value="$PROJECT_DIR$/script/select_and_drag.js" />
+        <option value="$PROJECT_DIR$/stand.html" />
+        <option value="$PROJECT_DIR$/css/stand.css" />
       </list>
     </option>
   </component>
@@ -278,7 +245,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Javascript2/exercices" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -319,12 +286,12 @@
       <workItem from="1534877470165" duration="13000" />
       <workItem from="1534894033632" duration="76000" />
       <workItem from="1534943289174" duration="603000" />
-      <workItem from="1534950224897" duration="19504000" />
+      <workItem from="1534950224897" duration="26285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64915000" />
+    <option name="totallyTimeSpent" value="71696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -362,13 +329,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="amelioration du background" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/script/upload_image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stand.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -542,22 +502,10 @@
     <entry file="file://$PROJECT_DIR$/images/ancien_bureaux.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/scale_and_rotate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="255" column="1" selection-start-line="255" selection-start-column="1" selection-end-line="255" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/upload_image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -579,36 +527,57 @@
     <entry file="file://$PROJECT_DIR$/images/elements.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/stand.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/images/bureau.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/bureauh.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/bureau.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/script/scale_and_rotate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/upload_image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="994">
+          <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/comptoiravecchaise.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/stand.html">
+    <entry file="file://$PROJECT_DIR$/script/svgAutre.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#aside#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/select_and_drag.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
+        <state relative-caret-position="476">
+          <caret line="94" column="72" selection-start-line="94" selection-start-column="72" selection-end-line="94" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+          <folding>
+            <element signature="e#1096#1103#1" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#aside#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stand.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>

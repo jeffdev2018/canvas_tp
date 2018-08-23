@@ -62,7 +62,12 @@ function initBG() {
     let btn_reset = document.getElementById("effacerBG");
 
     btn_reset.addEventListener("click", function(evt){
-        raz_drop(document.getElementById("drop_area"));
+
+        let s = document.getElementById("drop_area");
+
+        s.style.backgroundColor = "";
+        s.style.border = "none";
+        raz_drop(s);
 
     });
 
@@ -74,6 +79,7 @@ function initBG() {
 
             case "drop_area":
                 s.style.backgroundImage = "";
+
                 break;
 
             default:

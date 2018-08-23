@@ -14,26 +14,67 @@
     <body>
 
         <div id="wrapper">
-            <header>
-                <nav>
-                    <ul>
-                        <li><a class="active" href="#accueil">Accueil</a></li>
-                        <li><a href="#news">Nouveau Plan</a></li>
-                        <li><a href="#contact">Nous Contacter</a></li>
-                        <li style="float:right"><a href="#about" id="button-popup">Pas encore de compte? Creer Compte</a></li>
+            <!--<header>-->
+                <!--<nav>-->
+                    <!--<ul>-->
+                        <!--<li><a class="active" href="#accueil">Accueil</a></li>-->
+                        <!--<li><a href="#news">Nouveau Plan</a></li>-->
+                        <!--<li><a href="#contact">Nous Contacter</a></li>-->
+                        <!--<li style="float:right"><a href="#about" id="button-popup">Pas encore de compte? Creer Compte</a></li>-->
+                    <!--</ul>-->
+                <!--</nav>-->
+
+            <!--</header>-->
+
+            <div id="sideNavigation" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Choisir couleur de fond : </a>
+                <input type="color" name="favcolor" value="#ff0000" id="colorChange" style="margin-left: 32px"/>
+                <a href="#" id="effacerBG">Effacer le fond</a>
+                <a href="#" onclick="newSvg()">Nouveau plan</a>
+                <a href="#" onclick="set()">Sauvegarder</a>
+                <!--<a href="#" onclick="cache()">Hide draws</a>-->
+                <a href="#" onclick="del()">Effacer plans</a>
+                <!--<a href="#" onclick="quit()">Quit</a>-->
+
+
+
+                <div id="fuckPlan">
+                    <h2>List of draws</h2>
+                    <br/>
+                    <hr/>
+                    <p id="erreur"></p>
+                    <ul id="listePlan">
+
                     </ul>
-                </nav>
-
-            </header>
-            <div>
-                <input type="button" value="Save un plan" onclick="set()"/>
-                <input type="button" value="Afficher un plan" onclick="get()"/>
-                <input type="button" value="Effacer BackGround image" id="effacerBG"/>
-
-                <input type="color" name="favcolor" value="#ff0000" id="colorChange" />
-                Clé :
-                <input id="key">
+                </div>
             </div>
+
+            <nav class="topnav">
+
+                <a id="mona" href="#" onclick="openNav()">
+                    <h4>Options</h4>
+                    <svg width="30" height="30" id="icoOpen">
+
+                        <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+
+                    </svg>
+                </a>
+                <span id="titre_plan" class="titre"></span>
+
+            </nav>
+
+            <!--<div>-->
+                <!--<input type="button" value="Save un plan" onclick="set()"/>-->
+                <!--<input type="button" value="Afficher un plan" onclick="get()"/>-->
+                <!--<input type="button" value="Effacer BackGround image" id="effacerBG" />-->
+
+                <!--<input type="color" name="favcolor" value="#ff0000" id="colorChange" />-->
+                <!--Nom du plan :-->
+                <!--<input id="key">-->
+            <!--</div>-->
 
             <div id="contenu_jeux" class="row">
 
@@ -85,6 +126,6 @@
         <script src="script/scale_and_rotate.js"></script>
         <script src="script/select_and_drag.js"></script>
         <script src="script/upload_image.js"></script>
-
+        <script src="script/svgAutre.js"></script>
     </body>
 </html>
