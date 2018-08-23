@@ -30,6 +30,12 @@ function set() {
         let p = document.getElementById("erreur");
         p.textContent = "";
         display(list);
+    }else{
+        planKey = "Default";
+        document.getElementById("editor").innerHTML = localStorage.getItem(planKey);
+        document.getElementById("titre_plan").textContent = planKey;
+        init();
+        initBG();
     }
 
 }
