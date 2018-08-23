@@ -113,4 +113,8 @@ fill="#000000" stroke="none" id="ghost">
     53.487,58 56,58 56,32 58,32 "/>
 </g>
 
+    <g id="triangle">
+        <path d="M150 0 L75 200 L225 200 Z" />
+    </g>
+
 </svg>

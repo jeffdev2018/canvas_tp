@@ -27,6 +27,7 @@ function get() {
     initBG();
 }
 
+// branche les listeners aux images et au svg d'edition
 function init() {
 
     console.log("I am loaded");
@@ -41,7 +42,10 @@ function init() {
         e.addEventListener("dragstart", function (evt) {
             console.log("Je suis in dragstart");
 
-            selectedItem = evt.target;
+            let name = evt.target.name;
+            selectedItem = document.getElementById(name);
+
+           // selectedItem = evt.target;
 
         });
 
@@ -79,17 +83,6 @@ function init() {
             }
         });
 
-        $("#" + i.id).keypress(function(ev){
-
-            console.log("key press");
-
-            if(ev.altKey){
-                console.log("je suis cliquer",ev.id);
-
-            }
-
-        });
-
         Draggable.create("#" + i.id, {
             type: "x,y",
             bounds: "#drop_area",
@@ -102,139 +95,32 @@ function init() {
 
 }
 
-
+// appel la methode pour  creer l'element svg suite au drag and drop
 function dropElement(evt){
-    console.log("Je suis in drop");
-    console.log(evt.target);
-
-    // selectedItem = evt.target;
 
     if (selectedItem != undefined) {
 
-        let tmp = new Snap(selectedItem);
-        let drop_area2 = Snap("#drop_area");
-
-        let copy = tmp.clone();
-        copy.removeClass("draggable1");
-        copy.addClass("draggable2");
-
-        let dim = event.target.getBoundingClientRect();
-        let x = (window.event.clientX - dim.left - (selectedItem.getBBox().width / 2));
-        let y = (window.event.clientY - dim.top - (selectedItem.getBBox().height / 2));
-        copy.attr({ x: x, y: y})
-
-        console.log(event.x, event.y);
-        console.log("X : " + window.event.clientX, "Y : " + window.event.clientY);
-
-        drop_area2.append(copy);
-
-        console.log(copy.id);
-
-        copy.dblclick( deleteItem);
-
-        $(document).keypress(function(e) {
-
-            console.log(e.which);
-            if(e.which == 114) {
-                TweenLite.set("#" + copy.id, {transformOrigin:"50% 50%"})
-                Draggable.create("#" + copy.id, {
-                    type:"rotation",
-                    throwProps:true
-                });
-            }else if(e.which == 109){
-                Draggable.create("#" + copy.id, {
-                    type: "x,y",
-                    bounds: "#drop_area",
-                    overshootTolerance: 0,
-                    throwProps: true
-                });
-            }
-        });
-
-        $("#" + copy.id).keypress(function(ev){
-
-            console.log("key press");
-
-            if(ev.altKey){
-                console.log("je suis cliquer",ev.id);
-
-            }
-
-        });
-
-        Draggable.create("#" + copy.id, {
-            type: "x,y",
-            bounds: "#drop_area",
-            overshootTolerance: 0,
-            throwProps: true
-        });
+        createCopy();
 
         selectedItem = null;
     }
 }
 
+// appel la methode pour  creer l'element svg suite au double click sur l'objet choisi
 function addElement(evt){
-    console.log("Je suis in dblclick");
-    console.log(evt.target);
 
-    selectedItem = evt.target;
+    let name = evt.target.name;
+    selectedItem = document.getElementById(name);
 
     if (selectedItem != undefined) {
 
-        let tmp = new Snap(selectedItem);
-        let drop_area2 = Snap("#drop_area");
-
-        let copy = tmp.clone();
-        copy.removeClass("draggable1");
-        copy.addClass("draggable2");
-        copy.attr({ x: 0, y: 0})
-        drop_area2.append(copy);
-
-        console.log(copy.id);
-
-        copy.dblclick( deleteItem);
-
-        $(document).keypress(function(e) {
-
-            console.log(e.which);
-            if(e.which == 114) {
-                TweenLite.set("#" + copy.id, {transformOrigin:"50% 50%"})
-                Draggable.create("#" + copy.id, {
-                    type:"rotation",
-                    throwProps:true
-                });
-            }else if(e.which == 109){
-                Draggable.create("#" + copy.id, {
-                    type: "x,y",
-                    bounds: "#drop_area",
-                    overshootTolerance: 0,
-                    throwProps: true
-                });
-            }
-        });
-
-        $("#" + copy.id).keypress(function(ev){
-
-            console.log("key press");
-
-            if(ev.altKey){
-                console.log("je suis cliquer",ev.id);
-
-            }
-
-        });
-
-        Draggable.create("#" + copy.id, {
-            type: "x,y",
-            bounds: "#drop_area",
-            overshootTolerance: 0,
-            throwProps: true
-        });
+        createCopy();
 
         selectedItem = null;
     }
 }
 
+// ouvre boite de dialogue pour deleter objet selectionner
 function deleteItem(evt){
 
     selectedItem = evt.target;
@@ -248,3 +134,48 @@ function deleteItem(evt){
     selectedItem = null;
 }
 
+// cree une copy de l'objet selectionner pour le mettre dans la zone d'edition
+function createCopy(){
+
+    let tmp = new Snap(selectedItem);
+    let drop_area2 = Snap("#drop_area");
+
+    let dim = event.target.getBoundingClientRect();
+    let x = (window.event.clientX - dim.left - (selectedItem.getBBox().width / 2));
+    let y = (window.event.clientY - dim.top - (selectedItem.getBBox().height / 2));
+
+    let copy = tmp.clone();
+    copy.addClass("draggable2");
+    copy.attr({ x: x, y: y});
+
+    drop_area2.append(copy);
+
+    copy.dblclick(deleteItem);
+
+    $(document).keypress(function(e) {
+
+        console.log(e.which);
+        if(e.which == 114) {
+            TweenLite.set("#" + copy.id, {transformOrigin:"50% 50%"})
+            Draggable.create("#" + copy.id, {
+                type:"rotation",
+                throwProps:true
+            });
+        }else if(e.which == 109){
+            Draggable.create("#" + copy.id, {
+                type: "x,y",
+                bounds: "#drop_area",
+                overshootTolerance: 0,
+                throwProps: true
+            });
+        }
+    });
+
+    Draggable.create("#" + copy.id, {
+        type: "x,y",
+        bounds: "#drop_area",
+        overshootTolerance: 0,
+        throwProps: true
+    });
+
+}

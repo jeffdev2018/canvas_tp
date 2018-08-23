@@ -5,7 +5,19 @@
 }
 
 .draggable1{
-    cursor: move;
+    cursor: grab;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #bbbbbb;
+}
+
+.draggable1:hover {
+    background-color: #42c3dd;
 }
 
 .draggable2{
