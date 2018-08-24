@@ -3,9 +3,13 @@
 // ouvrir le menu nav
 function openNav() {
     document.getElementById("sideNavigation").style.width = "300px";
-    //document.getElementById("main").style.marginLeft = "250px";
-    //document.getElementById("palette").style.display = "none";
-    //document.getElementById("editor").style.marginLeft = "110px";
+    document.getElementById("social").style.width = "87%";
+    document.getElementById("main").style.marginLeft = "300px";
+
+    document.getElementById("palette").style.display = "none";
+    document.getElementById("editor").style.marginLeft = "110px";
+
+
 
     if(localStorage.length === 0){
 
@@ -25,11 +29,11 @@ function openNav() {
 
 // fermer le menu nav
 function closeNav() {
-
     document.getElementById("sideNavigation").style.width = "0";
-    //document.getElementById("main").style.marginLeft = "0";
-    //document.getElementById("palette").style.display = "block";
-    //document.getElementById("editor").style.marginLeft = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("palette").style.display = "block";
+    document.getElementById("editor").style.marginLeft = "0";
+    document.getElementById("social").style.width = "100%";
 
 }
 

@@ -13,18 +13,7 @@
 
     <body>
 
-        <div id="wrapper">
-            <!--<header>-->
-                <!--<nav>-->
-                    <!--<ul>-->
-                        <!--<li><a class="active" href="#accueil">Accueil</a></li>-->
-                        <!--<li><a href="#news">Nouveau Plan</a></li>-->
-                        <!--<li><a href="#contact">Nous Contacter</a></li>-->
-                        <!--<li style="float:right"><a href="#about" id="button-popup">Pas encore de compte? Creer Compte</a></li>-->
-                    <!--</ul>-->
-                <!--</nav>-->
 
-            <!--</header>-->
 
             <div id="sideNavigation" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -39,12 +28,7 @@
                 <!--<a href="#" onclick="quit()">Quit</a>-->
 
                 <br>
-                <div>
-                    <h2>Commandes</h2>
-                    <p>Pour rotationner : r</p>
-                    <p>Pour dragguer : m</p>
-                    <p>Pour effacer double cliquer</p>
-                </div>
+
 
                 <div id="fuckPlan">
                     <h2>List of draws</h2>
@@ -57,21 +41,7 @@
                 </div>
             </div>
 
-            <nav class="topnav">
 
-                <a id="mona" href="#" onclick="openNav()">
-                    <h4>Options</h4>
-                    <svg width="30" height="30" id="icoOpen">
-
-                        <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-                        <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-                        <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
-
-                    </svg>
-                </a>
-                <span id="titre_plan" class="titre"></span>
-
-            </nav>
 
             <!--<div>-->
                 <!--<input type="button" value="Save un plan" onclick="set()"/>-->
@@ -82,73 +52,99 @@
                 <!--Nom du plan :-->
                 <!--<input id="key">-->
             <!--</div>-->
+            <div id="main">
+                <nav class="topnav" id="nava">
 
-            <div id="contenu_jeux" class="row">
+                    <a id="mona" href="#" onclick="openNav()">
+                        <h4>Options</h4>
+                        <svg width="30" height="30" id="icoOpen">
 
-                <aside class="col-3 anyClass">
+                            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                            <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
 
-                    <img src="images/bureauverreavecclient.svg" name="bureauverreavecclient" class="draggable1"/>
-                    <img src="images/chaises.svg" name="chaises" class="draggable1"/>
-                    <img src="images/chaiseunique.svg" name="chaiseunique" class="draggable1"/>
-                    <img src="images/bureauunique.svg" name="bureauunique" class="draggable1"/>
-                    <img src="images/comptoiravecchaise.svg" name="comptoiravecchaise" class="draggable1"/>
-                    <img src="images/newbureau.svg" name="newbureau" class="draggable1"/>
-                    <img src="images/newbureauverre.svg" name="newbureauverre" class="draggable1"/>
-                    <img src="images/10.svg" name="10" class="draggable1"/>
-                    <img src="images/11.svg" name="11" class="draggable1"/>
-                    <img src="images/12.svg" name="12" class="draggable1"/>
-                    <img src="images/13.svg" name="13" class="draggable1"/>
-                    <img src="images/14.svg" name="14" class="draggable1"/>
-                    <img src="images/15.svg" name="15" class="draggable1"/>
-                    <img src="images/16.svg" name="16" class="draggable1"/>
-                    <img src="images/17.svg" name="17" class="draggable1"/>
-                    <img src="images/18.svg" name="18" class="draggable1"/>
-                    <img src="images/19.svg" name="19" class="draggable1"/>
-                    <img src="images/20.svg" name="20" class="draggable1"/>
-                    <img src="images/21.svg" name="21" class="draggable1"/>
-                    <img src="images/23.svg" name="23" class="draggable1"/>
+                        </svg>
+                    </a>
+                    <span id="titre_plan" class="titre"></span>
 
-                    <svg width="100%" height="100%" style="display: none" id="svg" xmlns="http://www.w3.org/2000/svg">
-                        <use x="0" y="0" xlink:href="images/bureauverreavecclient.svg#bureauverreavecclient" id="bureauverreavecclient"/>
-                        <use x="0" y="0" xlink:href="images/chaises.svg#chaises" id="chaises"/>
-                        <use x="0" y="0" xlink:href="images/chaiseunique.svg#chaiseunique" id="chaiseunique"/>
-                        <use x="0" y="0" xlink:href="images/bureauunique.svg#bureauunique" id="bureauunique"/>
-                        <use x="0" y="0" xlink:href="images/comptoiravecchaise.svg#comptoiravecchaise" id="comptoiravecchaise"/>
-                        <use x="0" y="0" xlink:href="images/newbureau.svg#newbureau" id="newbureau"/>
-                        <use x="0" y="0" xlink:href="images/newbureauverre.svg#newbureauverre" id="newbureauverre"/>
-                        <use x="0" y="0" xlink:href="images/10.svg#10" id="10"/>
-                        <use x="0" y="0" xlink:href="images/11.svg#11" id="11"/>
-                        <use x="0" y="0" xlink:href="images/12.svg#12" id="12"/>
-                        <use x="0" y="0" xlink:href="images/13.svg#13" id="13"/>
-                        <use x="0" y="0" xlink:href="images/14.svg#14" id="14"/>
-                        <use x="0" y="0" xlink:href="images/15.svg#15" id="15"/>
-                        <use x="0" y="0" xlink:href="images/16.svg#16" id="16"/>
-                        <use x="0" y="0" xlink:href="images/17.svg#17" id="17"/>
-                        <use x="0" y="0" xlink:href="images/18.svg#18" id="18"/>
-                        <use x="0" y="0" xlink:href="images/19.svg#19" id="19"/>
-                        <use x="0" y="0" xlink:href="images/20.svg#20" id="20"/>
-                        <use x="0" y="0" xlink:href="images/21.svg#21" id="21"/>
-                        <use x="0" y="0" xlink:href="images/23.svg#23" id="23"/>
-                     
+                </nav>
+                <div id="contenu_jeux" class="row">
 
-                    </svg>
+                    <aside class="col-3 anyClass" id="palette">
 
-                </aside>
+                        <img src="images/bureauverreavecclient.svg" name="bureauverreavecclient" class="draggable1"/>
+                        <img src="images/chaises.svg" name="chaises" class="draggable1"/>
+                        <img src="images/chaiseunique.svg" name="chaiseunique" class="draggable1"/>
+                        <img src="images/bureauunique.svg" name="bureauunique" class="draggable1"/>
+                        <img src="images/comptoiravecchaise.svg" name="comptoiravecchaise" class="draggable1"/>
+                        <img src="images/newbureau.svg" name="newbureau" class="draggable1"/>
+                        <img src="images/newbureauverre.svg" name="newbureauverre" class="draggable1"/>
+                        <img src="images/10.svg" name="10" class="draggable1"/>
+                        <img src="images/11.svg" name="11" class="draggable1"/>
+                        <img src="images/12.svg" name="12" class="draggable1"/>
+                        <img src="images/13.svg" name="13" class="draggable1"/>
+                        <img src="images/14.svg" name="14" class="draggable1"/>
+                        <img src="images/15.svg" name="15" class="draggable1"/>
+                        <img src="images/16.svg" name="16" class="draggable1"/>
+                        <img src="images/17.svg" name="17" class="draggable1"/>
+                        <img src="images/18.svg" name="18" class="draggable1"/>
+                        <img src="images/19.svg" name="19" class="draggable1"/>
+                        <img src="images/20.svg" name="20" class="draggable1"/>
+                        <img src="images/21.svg" name="21" class="draggable1"/>
+                        <img src="images/23.svg" name="23" class="draggable1"/>
 
-                <main class="col-9" id="editor">
+                        <svg width="100%" height="100%" style="display: none" id="svg" xmlns="http://www.w3.org/2000/svg">
+                            <use x="0" y="0" xlink:href="images/bureauverreavecclient.svg#bureauverreavecclient" id="bureauverreavecclient"/>
+                            <use x="0" y="0" xlink:href="images/chaises.svg#chaises" id="chaises"/>
+                            <use x="0" y="0" xlink:href="images/chaiseunique.svg#chaiseunique" id="chaiseunique"/>
+                            <use x="0" y="0" xlink:href="images/bureauunique.svg#bureauunique" id="bureauunique"/>
+                            <use x="0" y="0" xlink:href="images/comptoiravecchaise.svg#comptoiravecchaise" id="comptoiravecchaise"/>
+                            <use x="0" y="0" xlink:href="images/newbureau.svg#newbureau" id="newbureau"/>
+                            <use x="0" y="0" xlink:href="images/newbureauverre.svg#newbureauverre" id="newbureauverre"/>
+                            <use x="0" y="0" xlink:href="images/10.svg#10" id="10"/>
+                            <use x="0" y="0" xlink:href="images/11.svg#11" id="11"/>
+                            <use x="0" y="0" xlink:href="images/12.svg#12" id="12"/>
+                            <use x="0" y="0" xlink:href="images/13.svg#13" id="13"/>
+                            <use x="0" y="0" xlink:href="images/14.svg#14" id="14"/>
+                            <use x="0" y="0" xlink:href="images/15.svg#15" id="15"/>
+                            <use x="0" y="0" xlink:href="images/16.svg#16" id="16"/>
+                            <use x="0" y="0" xlink:href="images/17.svg#17" id="17"/>
+                            <use x="0" y="0" xlink:href="images/18.svg#18" id="18"/>
+                            <use x="0" y="0" xlink:href="images/19.svg#19" id="19"/>
+                            <use x="0" y="0" xlink:href="images/20.svg#20" id="20"/>
+                            <use x="0" y="0" xlink:href="images/21.svg#21" id="21"/>
+                            <use x="0" y="0" xlink:href="images/23.svg#23" id="23"/>
 
-                    <svg x="0" y="0" width="100%" height="700"  id="drop_area" >
-                        Pas de support de canvas
 
-                    </svg>
+                        </svg>
 
-                </main>
+                    </aside>
 
+                    <main class="col-9" id="editor">
+
+                        <svg x="0" y="0" width="100%" height="700"   id="drop_area" >
+                            Pas de support de canvas
+
+                        </svg>
+
+                    </main>
+
+                </div>
+                <footer>
+
+                    <div id="social">
+                        <a href=""><img src="images/social/facebook.png" alt="logo facebook" target="_blank"></a>
+                        <a href=""><img src="images/social/google_plus.png" alt="logo de google" target="_blank"></a>
+                        <a href=""><img src="images/social/linkedin.png" alt="logo linkin" target="_blank"></a>
+                        <a href=""><img src="images/social/twitter.png" alt="logo twitter" target="_blank"></a>
+
+                    </div>
+                </footer>
             </div>
 
 
 
-        </div>
+
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/utils/Draggable.min.js"></script>
         <!--<script src="//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ThrowPropsPlugin.min.js"></script>-->

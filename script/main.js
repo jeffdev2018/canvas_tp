@@ -1,14 +1,7 @@
 "use strict"
 
 let selectedItem;
-let firstData;
-let planKey = "Default";
 
-document.addEventListener("DOMContentLoaded", function() {
-    init();
-    firstData = document.getElementById("editor").innerHTML;
-
-});
 
 // on initialise tous les elements de la page avec leurs listeners
 function init() {
@@ -16,6 +9,7 @@ function init() {
     console.log("I am loaded");
 
     document.getElementById("titre_plan").textContent = planKey;
+
 
     window.addEventListener("unload", set);
 

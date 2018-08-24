@@ -7,6 +7,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section 
 
 body{
     margin: 0;
+    background-color: #dddddd;
 }
 
 /**** code du popup  ****/
@@ -249,7 +250,7 @@ article{
 [class*="col-"]
 {
     float:left;
-    padding:0 15px;
+    padding: 20px 15px;
 }
 
 
@@ -351,7 +352,6 @@ article{
 
 aside{
     padding-right: 0;
-    border-left: 5px solid green;
     background-color: white;
     border-radius: 8px;
 
@@ -402,56 +402,8 @@ aside li img{
 
 /**** parti poppup ******/
 
-input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
 
-input[type=button], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
 
-input[type=password], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    width: 100%;
-    background-color: #42c3dd;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #42c3dd;
-}
-
-div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
 
 #img_indication img{
     max-width: 90%;
